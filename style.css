@@ -1,0 +1,101 @@
+body{
+    margin: 0px;
+}
+*{
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.head{
+    background-image: linear-gradient(to right bottom, rgb(117, 63, 168), rgb(209, 51, 78)) ;
+}
+.outer{
+    display: flex;
+    width: 60%;
+    padding-block: 50px;
+    justify-content: space-between;
+}
+.left{
+    width: 60%;
+    color: white;
+    padding-block: 10px;
+}
+.right{
+    width: 35%;
+    justify-content: right;
+    padding-block:0px ;
+}
+form{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-evenly;
+    background-color: white;
+    border-radius: 2%;
+    padding: 20px;
+}
+input{
+    background-color: aliceblue;
+    border: 0px;
+    border-radius: 5px;
+    padding: 5px;
+}
+button{
+    background-color: rgb(241, 175, 8);
+    border: 0px;
+    border-radius: 5px;
+    color: white;
+    padding: 5px;
+}
+button:hover{
+    background-color: antiquewhite;
+    color:rgb(241, 175, 8) ;
+}
+.cont{
+    background-color: rgb(216, 208, 208);
+}
+.upper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.inner{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.col{
+    width: 32%;
+    background-color: white;
+    padding: 15px;
+    padding-block: 30px;
+    border-radius: 10px;
+}
+.image{
+    width: 80%;
+    height: 100px;
+}
+.rit{
+    width: 50%;
+    flex-direction: column;
+}
+.icon{
+    display: flex;
+    width: 20%;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+}
+.rit p{
+    margin: 0px;
+    text-align: justify;
+}
+.rit h4{
+    margin: 0px;
+}
